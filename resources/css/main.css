@@ -10,6 +10,7 @@
 html, body {
     font-size: 20px;
     color: #fff;
+    font-family: "Lato", "Arial", sans-serif;
 }
 
 /*----------------*/
@@ -17,8 +18,16 @@ html, body {
 /*----------------*/
 
 header {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.98), rgba(0, 0, 0, 0.98)), url("https://images.pexels.com/photos/708488/pexels-photo-708488.jpeg?auto=compress&cs=tinysrgb&h=350");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://images.pexels.com/photos/708488/pexels-photo-708488.jpeg?auto=compress&cs=tinysrgb&h=350");
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
+    margin: 0 auto;
+}
+
+.intro-box {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 200%;
+    font-weight: 100;
 }
