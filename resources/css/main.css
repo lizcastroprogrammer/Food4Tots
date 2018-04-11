@@ -16,6 +16,15 @@ html, body {
     text-rendering: optimizeLegibility;
 }
 
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
 /*.row {
     width: 100%;
     margin: 0 auto;
@@ -29,6 +38,23 @@ p {
     font-size: 90%;
     line-height: 1.5;
     padding-top: 5px;
+}
+
+/*--Links---*/
+
+a:link,
+a:visited {
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #F7CA18;
+    color: #F7CA18;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+a:hover,
+a:active {
+    border-bottom: 1px solid transparent;
+    color: #555;
 }
 
 /*--Buttons---*/
@@ -79,6 +105,20 @@ p {
     color: #fff;
     padding: 10px;
     margin: 5px;
+}
+
+
+/*-----icons------*/
+
+.icon-big {
+    font-size: 260%;
+    color: #F7CA18;
+}
+
+.icon-small {
+    color: #F7CA18;
+    font-size: 120%;
+    padding-right: 3%;
 }
 
 /*--Headings--*/
@@ -214,13 +254,6 @@ div h2 + p {
     margin: 30px 170px;
 }
 
-/*-----icons------*/
-
-.icon-big {
-    font-size: 260%;
-    color: #F7CA18;
-}
-
 /*----------------*/
 /*     MEALS      */
 /*----------------*/
@@ -255,6 +288,119 @@ div h2 + p {
 .meal-photo img:hover {
     opacity: 1;
     transform: scale(1.03);
+}
+
+/*----------------*/
+/*      WORKS     */
+/*----------------*/
+
+.steps-box:first-child {
+    text-align: right;
+    padding-right: 3%;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.steps-box:last-child {
+    padding-left: 3%;
+    margin-top: 95px;
+}
+
+.app-screen {
+    width: 40%;
+}
+
+.works-step {
+    margin-bottom: 50px;
+}
+
+.works-step:last-of-type {
+    margin-bottom: 100px;
+}
+
+.works-step div {
+    border: 2px solid #F7CA18;
+    color: #F7CA18;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    padding: 5px;
+    font-size: 150%;
+    float: left;
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.btn-app:link,
+.btn-app:visited {
+    border: 0;
+}
+
+.btn-app img {
+    height: 50px;
+    width: auto;
+    margin: 10px;
+}
+
+/*----------------*/
+/*     CITIES     */
+/*----------------*/
+
+.section-cities {
+    background-color: #f4f4f4;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.city-feature {
+    padding: 1.5%;
+}
+
+/*----------------*/
+/*  TESTIMONIALS  */
+/*----------------*/
+
+.section-testimonials {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://images.pexels.com/photos/61127/pexels-photo-61127.jpeg?auto=compress&cs=tinysrgb&h=350");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+blockquote {
+    padding: 2%;
+    line-height: 145%;
+    font-style: italic;
+    position: relative;
+    margin-top: 40px;
+}
+
+blockquote:before {
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+
+cite {
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+}
+
+cite img {
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
 }
 
 
