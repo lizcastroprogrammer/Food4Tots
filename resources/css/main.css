@@ -58,55 +58,49 @@ a:active {
 }
 
 /*--Buttons---*/
-.btn {
+.btn:link,
+.btn:visited,
+input[type=submit] {
     display: inline-block;
     padding: 10px 30px;
-}
-.btn-full:link,
-.btn-full:visited {
-    background-color: #F7CA18;
-    border-radius: 200px;
-    border: 1px solid #F7CA18;
+    font-weight: 300;
     text-decoration: none;
-    color: #fff;
-    padding: 10px;
-    margin: 5px;
-    transition: background-color 0.2s;
+    border-radius: 200px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
 
-.btn-full:hover,
-.btn-full:active {
-    background-color: #dbb419;
-    border: 1px solid #dbb419;
-    border-radius: 200px;
-    text-decoration: none;
+.btn-full:link,
+.btn-full:visited,
+input[type=submit] {
+    background-color: #F7CA18;
+    border: 1px solid #F7CA18;
     color: #fff;
-    padding: 10px;
-    margin: 5px;
+    margin-right: 15px;
 }
 
 .btn-ghost:link,
 .btn-ghost:visited {
     border: 1px solid #F7CA18;
-    border-radius: 200px;
-    text-decoration: none;
     color: #F7CA18;
-    padding: 10px;
-    margin: 5px;
-    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn:hover,
+.btn:active,
+input[type=submit]:hover, 
+input[type=submit]:active {
+    background-color: #dbb419;   
+}
+
+.btn-full:hover,
+.btn-full:active {
+    border: 1px solid #dbb419;
 }
 
 .btn-ghost:hover,
 .btn-ghost:active {
-    background-color: #dbb419;
     border: 1px solid #dbb419;
-    border-radius: 200px;
-    text-decoration: none;
     color: #fff;
-    padding: 10px;
-    margin: 5px;
 }
-
 
 /*-----icons------*/
 
@@ -454,6 +448,46 @@ cite img {
 .plan-box ul li {
     padding: 5px 0;
 }
+
+/*----------------*/
+/*     FORM       */
+/*----------------*/
+
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+}
+textarea {
+    height: 100px;
+}
+
+input[type=checkbox] {
+    margin: 10px 5px 10px 0;
+}
+
+*:focus { outline: none; }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
