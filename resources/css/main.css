@@ -366,7 +366,7 @@ div h2 + p {
 /*----------------*/
 
 .section-testimonials {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://images.pexels.com/photos/61127/pexels-photo-61127.jpeg?auto=compress&cs=tinysrgb&h=350");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("https://images.pexels.com/photos/106877/pexels-photo-106877.jpeg?auto=compress&cs=tinysrgb&h=350");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -402,6 +402,59 @@ cite img {
     margin-right: 10px;
     vertical-align: middle;
 }
+
+/*----------------*/
+/*     PLANS      */
+/*----------------*/
+
+.section-plans {
+    background-color: #f4f4f4;
+}
+
+.plan-box {
+    background-color: #fff;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+    box-shadow: 0 2px 2px #efefef;
+}
+
+.plan-price {
+    font-size: 300%;
+    font-weight: 100;
+    color: #F7CA18;
+    margin-bottom: 10px;
+}
+
+.plan-price span {
+    font-size: 30%;
+    font-weight: 300;
+}
+
+.plan-box div {
+    padding: 15px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.plan-box div:first-of-type {
+    background-color: #fcfcfc;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.plan-box div:last-of-type {
+    border: 0;
+    text-align: center;
+}
+
+.plan-box ul {
+    list-style: none;
+}
+
+.plan-box ul li {
+    padding: 5px 0;
+}
+
 
 
 
