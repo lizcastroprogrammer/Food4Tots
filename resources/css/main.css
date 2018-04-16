@@ -192,7 +192,6 @@ header {
 .logo {
     transform: scale(1.2, 1.2);
     height: auto;
-    margin: 0 20px 0 15px;
     float: left;
     margin: -15px 0 0 130px;
 }
@@ -555,7 +554,7 @@ footer {
 footer p {
     color: #888;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 
